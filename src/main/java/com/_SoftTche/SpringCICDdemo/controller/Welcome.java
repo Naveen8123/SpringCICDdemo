@@ -17,8 +17,4 @@ public class Welcome {
         return "add your name and address";
     }
 
-    @GetMapping("/addBooks")
-    public String addBooks(){
-        return "add books here";
-    }
 }
