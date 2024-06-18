@@ -8,7 +8,6 @@ import java.util.List;
 
 @RestController
 public class Welcome {
-    List<String> arr= new ArrayList<>();
     @GetMapping("/welcome")
     public String message(){
         return "welcome to your CICD Demo";
@@ -16,5 +15,10 @@ public class Welcome {
     @GetMapping("/userDetails")
     public String userDetails(){
         return "add your name and address";
+    }
+
+    @GetMapping("/addBooks")
+    public String addBooks(){
+        return "add books here";
     }
 }
