@@ -39,7 +39,3 @@ jobs:
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-
-    #1.login to your docker id
-    #build a docker image
-    #push that image to docker hub
